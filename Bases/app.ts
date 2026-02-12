@@ -1,0 +1,22 @@
+const msg = "Hola Mundo";
+console.log (msg);
+
+let edades: number[]=[18,15,16,5];
+edades[2]=215;
+console.log(edades);
+console.log(edades[0]);
+console.log(edades[2]);
+edades.push(99);
+console.log(edades);
+
+
+(() =>{
+
+function saludar(nombre:string):void{
+const mensaje="Hola" + nombre;
+    console.log(mensaje)
+}
+    
+saludar("Marta")
+
+})()
