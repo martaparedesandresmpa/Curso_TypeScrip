@@ -62,14 +62,37 @@
     const {nombre,precio,stock}=productos;
     console.log(`Producto: ${nombre}| Precio: ${precio}| Stock: ${stock}`)
 })()*/
-(() => {
-    const usuario = {
+/*(()=>{
+    const usuario ={
         nombre: "Carlos",
-        edad: 32,
-        ciudad: "Valencia"
+        edad:32,
+        ciudad:"Valencia"
+    }
+    const {nombre,edad,ciudad}=usuario;
+    console.log(`${nombre} "tiene" ${edad} "años y vive en " ${ciudad}`);
+
+
+})()*/
+/*(()=>{
+    const equipos ={
+        nombre: "Superheroes",
+        miembros:["superman","thor","hulk"],
+        activo:true
     };
-    const { nombre, edad, ciudad } = usuario;
-    console.log(`${nombre} tiene ${edad} años y vive en  ${ciudad}`);
+    const {nombre,miembros,activo}=equipos;
+    const [lider,segundo]=miembros
+    console.log(`${nombre} - lider: ${lider}- segundo: ${segundo} - Activo: ${activo}`);
+
+
+})()*/
+(() => {
+    const coche = {
+        marca: "Toyota",
+        modelo: "Yaris",
+        puertas: 5,
+    };
+    const { marca, modelo } = coche;
+    console.log(` Marca: ${marca} Modelo: ${modelo} `);
 })();
 
 //# sourceMappingURL=Desestructuracion.js.map
