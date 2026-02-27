@@ -10,13 +10,6 @@ edades.push(99);
 console.log(edades);
 
 
-(() =>{
 
-function saludar(nombre:string):void{
-const mensaje="Hola" + nombre;
-    console.log(mensaje)
-}
-    
-saludar("Marta")
 
-})()
+
