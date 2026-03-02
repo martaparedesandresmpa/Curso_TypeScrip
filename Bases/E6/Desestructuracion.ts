@@ -89,7 +89,7 @@
 
 })()*/
 
-(()=>{
+/*(()=>{
  const coche ={
     marca:"Toyota",
     modelo:"Yaris",
@@ -98,6 +98,14 @@
  const {marca,modelo}=coche;
  console.log(` Marca: ${marca} Modelo: ${modelo} `)
 
-})()
+})()*/
+(()=>{
+    const libro ={
+        titulo:"El quijote",
+        autor:"Cervantes",
+        pagina:863
+    };
+    
 
+})()
 
