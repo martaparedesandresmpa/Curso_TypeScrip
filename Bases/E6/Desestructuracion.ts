@@ -99,13 +99,63 @@
  console.log(` Marca: ${marca} Modelo: ${modelo} `)
 
 })()*/
-(()=>{
-    const libro ={
-        titulo:"El quijote",
-        autor:"Cervantes",
-        pagina:863
-    };
-    
+/*(()=>{
 
-})()
+
+   const pelicula={
+    titulo:"Origen",
+    director: "Christhoper Nolan",
+    año:2010,
+    duracion:148,
+    genero:"Ciencia ficcion"
+
+   }
+   const {titulo,año,director}=pelicula;
+   console.log(`Pelicula${titulo}${año}Director: ${director}`)
+})()*/
+/*(()=>{
+    const pedido={
+        id:"501",
+        cliente:{
+            nombre:"Lucia",
+            vip:true
+        },
+        envio:{
+            ciudad:"sevilla",
+            precio:4.99
+        },
+        total:29.5
+    };
+    const{
+        id,
+        total,
+        cliente:{nombre,vip},
+        envio:{ciudad,precio}}=pedido
+    }
+    console.log(`Pedido ${id} - ${nombre} (VIP: ${vip}) - ${ciudad} - Total: ${total} € + Envio: ${precio} €`);
+
+
+
+})()*/
+/*(()=>{
+    const factura={
+        numero:9001,
+        cliente:{
+            nombre:"Sara",
+            vip:false
+        },
+        item:["Pan", "leche","huevos"],
+        total:12.75
+    }
+    const {
+        numero,
+        cliente:{nombre,vip},
+        item:[primerItem],
+        total
+    }=factura
+
+    console.log(`Factura ${numero} - ${nombre} (VIP:${vip}) - Primer item: ${primerItem} - Total: ${ total} €`)
+})()*/
+
+
 
